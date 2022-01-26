@@ -3,7 +3,7 @@ import './App.css';
 import { useState, useEffect } from React
 
 function App() {
-  const [characterStates, setCharacterStates] = useState({Name: '',})
+  const [characterStates, setCharacterStates] = useState({name: '', race: '', class: '', str: 0, const: 0, dex: 0})
   
   return (
     <div className="App">
