@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState, useEffect } from React
 
 function App() {
+  const [characterStates, setCharacterStates] = useState({Name: '',})
+  
   return (
     <div className="App">
       <header className="App-header">
