@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import { useState, useEffect } from 'react';
+import { Form, Button, Alert } from 'react-bootstrap';
 
 function textBox() {
    
