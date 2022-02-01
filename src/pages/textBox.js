@@ -7,6 +7,12 @@ function textBox() {
     
     return (
       <div>
+          <div>
+              <p>text will go here</p>
+            </div>
+            <div>
+                <p>player input options will go here</p>
+            </div>
       </div>
     );
   }
